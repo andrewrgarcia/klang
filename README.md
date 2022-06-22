@@ -1,6 +1,7 @@
 # klong
 
 A simple compiling script for C++ files using the clang++ compiler
+
 Andrew Garcia, 2022
 
 ### Setup
