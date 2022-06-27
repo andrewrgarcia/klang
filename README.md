@@ -1,4 +1,4 @@
-# klong
+# klang
 
 A simple compiling script for C++ files using the clang++ compiler
 
@@ -10,7 +10,7 @@ place in a folder i.e. $HOME/my_folder/
 On Terminal inside this folder:
 
 ```
-chmod +x klong.sh
+chmod +x klang.sh
 ```
 #### To call script from anywhere:
 
@@ -23,7 +23,7 @@ gedit .bashrc
 On **.bashrc**:
 
 ```
-alias klong=`$HOME/my_folder/klong.sh` 
+alias klang=`$HOME/my_folder/klang.sh` 
 ```
 On Terminal:
 ```
@@ -34,9 +34,9 @@ $source ~/.bashrc
 
 ```ruby
 #single .cpp input
-klong your_file.cpp
+klang your_file.cpp
 #multiple .cpp inputs (Usually the case for .cpp program with multiple .cpp dependencies)
-klong main_file.cpp dependency1.cpp dependency2.cpp dependency3.cpp
+klang main_file.cpp dependency1.cpp dependency2.cpp dependency3.cpp
 ```
 Running compiled program:
 ```
