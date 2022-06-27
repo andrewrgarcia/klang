@@ -7,11 +7,11 @@ Setup:
 place in a folder i.e. $HOME/my_folder/
 On Terminal inside this folder:
 ```
-chmod +x klong.sh; gedit .bashrc
+chmod +x klang.sh; gedit .bashrc
 ```
 on .bashrc in alias section:
 ```
-alias klong=`$HOME/my_folder/klong.sh` 
+alias klang=`$HOME/my_folder/klang.sh` 
 ```
 On Terminal:
 ```
@@ -21,9 +21,9 @@ $source ~/.bashrc
 Usage:
 ```
 #single .cpp input
-klong your_cpp_file.cpp
+klang your_cpp_file.cpp
 #multiple .cpp inputs (Usually the case for .cpp program with multiple .cpp dependencies)
-klong main_cpp_file.cpp dependency1.cpp dependency2.cpp dependency3.cpp
+klang main_cpp_file.cpp dependency1.cpp dependency2.cpp dependency3.cpp
 ```
 Running compiled program:
 ```
