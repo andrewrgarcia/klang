@@ -1,6 +1,7 @@
 #!/bin/bash
 : '
-A simple compiling script for C++ files using the clang++ compiler
+Simple scripts which compile C++ files using the clang++ compiler
+klangl: The standard script
 Andrew Garcia, 2022
 
 Setup:

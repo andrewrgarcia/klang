@@ -1,8 +1,14 @@
 # klang
 
-A simple compiling script for C++ files using the clang++ compiler
+A mini-library of simple scripts which compile C++ files using the clang++ compiler
+
+**klang.sh** - The standard C++ --> executable compiler script
+
+**klangle.sh** - compiler script with OpenGL flags (graphics / rendering)
 
 Andrew Garcia, 2022
+
+
 
 ### Setup
 
