@@ -15,7 +15,5 @@ CXX_FLAG=-std=c++2a
 # GLUT   
 # clang++ "$@" $CXX_FLAG -lGL -lGLU -lglut -o ${FILE::-4}.k 
 
-# clang++ "$@" $CXX_FLAG -lglfw -lGL -lm -lX11 -lpthread -lXi -lXrandr -ldl -o ${FILE::-4}.k 
-
 # GLAD, GLFW
 clang++ "$@" /usr/include/glad/glad.c -lglfw -lGL -lm -lX11 -lpthread -lXi -lXrandr -ldl -o ${FILE::-4}.k 
