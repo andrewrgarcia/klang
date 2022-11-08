@@ -1,7 +1,7 @@
 #!/bin/bash
 : '
 Simple scripts which compile C++ files using the clang++ compiler
-klangl: The standard script
+
 Andrew Garcia, 2022
 
 Setup:
@@ -32,8 +32,9 @@ Running compiled program:
 ```
 '
 
+
 FILE=$1
 CXX_FLAG=-std=c++2a
 
-# clang++ $FILE -std=c++2a -o ${FILE::-4}.k        # Only 1 .cpp input allowed
-clang++ "$@" $CXX_FLAG -o ${FILE::-4}.k          # Unlimited .cpp inputs. Good for C++ files with several dependencies. First .cpp file listed must be the main file. 
+#clang++ "$@" $CXX_FLAG -o ${FILE::-4}.k 
+clang++ "$@" $CXX_FLAG -o ${FILE::-4}.k -O3     #O3 optimization
