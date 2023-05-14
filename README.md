@@ -1,6 +1,6 @@
 # klang
 
-<img src="DALLEcrab.svg" width="200" height="200">
+<img src="DALLEcrab.svg" width="300" height="300">
   
 A set of shell `.sh` programs to compile C++ files using the clang++ compiler
 
