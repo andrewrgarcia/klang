@@ -1,11 +1,6 @@
 # klang
 
-![](8-bit_crab__dall-e_generated.png)
-
-
 <img src="DALLEcrab.svg" width="200" height="200">
-  
-  
   
 A set of shell `.sh` programs to compile C++ files using the clang++ compiler
 
