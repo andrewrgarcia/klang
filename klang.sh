@@ -37,4 +37,5 @@ FILE=$1
 CXX_FLAG=-std=c++2a
 
 #clang++ "$@" $CXX_FLAG -o ${FILE::-4}.k 
+# g++ "$@" $CXX_FLAG -o ${FILE::-4}.k -O3     #O3 optimization   (g++ auxiliary)
 clang++ "$@" $CXX_FLAG -o ${FILE::-4}.k -O3     #O3 optimization
